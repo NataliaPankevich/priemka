@@ -168,7 +168,7 @@
     }
 
     .hero__bottom {
-        max-width: 100%;      
+        max-width: 100%;
     }
 
     .header {
@@ -178,6 +178,10 @@
     .header__logo-img {
         width: 37vw;
         min-width: 155px;
+    }
+
+    .hero__btn-arrow {
+        width: 50px;
     }
 
     .hero__title {
@@ -204,7 +208,7 @@
         font-size: 6.2vw;
     }
 
-    .hero__text {       
+    .hero__text {
         align-self: flex-end;
         border-radius: 10px;
         font-size: 3.2vw;
@@ -229,7 +233,7 @@
         letter-spacing: 2px;
     }
 
-    .hero__btn-wrapper {        
+    .hero__btn-wrapper {
         max-width: 100%;
         justify-content: space-between;
         align-self: stretch;
@@ -257,6 +261,13 @@
     }
 }
 
+@media (max-width:1000px) {
+    .hero__btn-arrow {
+        width: 45px;
+    }
+
+}
+
 @media (max-width:768px) {
     .hero__text {
         border-radius: 8px;
@@ -273,6 +284,10 @@
     .hero__btn {
         gap: 10px;
         border-radius: 10px;
+    }
+
+    .hero__btn-arrow {
+        width: 40px;
     }
 
     .hero__btn-wrapper {
@@ -295,19 +310,19 @@
     .hero__btn {
         font-size: 18px;
         border-radius: 8px;
-        gap:5px;
-        padding: 1.5vw 1.5vw 1.5vw 1.5vw;   
+        gap: 7px;
+        padding: 1.5vw 1.5vw 1.5vw 1.5vw;
     }
 
     .hero__btn-arrow {
-        width: 22px;
-        height: 30px;
-    }
+        width: 30px;        
+    } 
 
     .quiz {
         padding-top: 60px;
         padding-bottom: 60px;
     }
+
     .hero__btn-link {
         font-size: 3vw;
         line-height: 1.1;
@@ -315,10 +330,22 @@
     }
 
 }
-@media (max-width:320px) { 
+
+@media (max-width:400px) {
+
+    .hero__btn-arrow {
+        width: 18px;        
+    } 
+    .hero__btn {       
+        gap: 5px;
+        
+    }
+}
+
+@media (max-width:320px) {
     .hero__btn {
         font-size: 18px;
-        border-radius: 8px; 
-        gap:2px;      
+        border-radius: 8px;
+        gap: 2px;
     }
 }
