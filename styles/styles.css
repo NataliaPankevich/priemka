@@ -181,7 +181,7 @@
     }
 
     .hero__btn-arrow {
-        width: 50px;
+        width: 60px;
     }
 
     .hero__title {
@@ -263,7 +263,7 @@
 
 @media (max-width:1000px) {
     .hero__btn-arrow {
-        width: 45px;
+        width: 50px;
     }
 
 }
@@ -287,7 +287,7 @@
     }
 
     .hero__btn-arrow {
-        width: 40px;
+        width: 45px;
     }
 
     .hero__btn-wrapper {
@@ -315,7 +315,7 @@
     }
 
     .hero__btn-arrow {
-        width: 30px;        
+        width: 33px;        
     } 
 
     .quiz {
